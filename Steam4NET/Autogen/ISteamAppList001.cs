@@ -13,7 +13,7 @@ namespace Steam4NET
 		[VTableSlot(0)]
 		Int32 GetNumInstalledApps();
 		[VTableSlot(1)]
-		Int32 GetInstalledApps(ref UInt32 puUnk, UInt32 uUnk);
+		Int32 GetInstalledApps(ref UInt32[] puUnk, UInt32 uUnk);
 		[VTableSlot(2)]
 		Int32 GetAppName(UInt32 uUnk, StringBuilder pUnk, Int32 iUnk);
 		[VTableSlot(3)]
